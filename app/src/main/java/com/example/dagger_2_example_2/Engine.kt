@@ -16,7 +16,7 @@ class Engine @Inject constructor(private var fuel: Lazy<Fuel>) {
     }
 
     override fun toString(): String {
-//       to get toString return of "engine" class -> put ${engine.get()} in this return
+//       to get toString return of "Fuel" class -> put ${fuel.get()} in this return
         return "V8 + ${fuel.get()}"
     }
 }
